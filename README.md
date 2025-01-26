@@ -8,14 +8,20 @@ Crawler для парсинга фармацевтического сайта il
 # Запуск
 ```bash
 git clone https://github.com/tetch201/crawler-Scrapy
-cd crawler-Scrapy/crawl/spiders
-scrapy crawl ilacrehberi
+cd crawler-Scrapy
+python -m venv venv
+venv/scripts/activate
 ```
 # Фреймворк и инструменты:
 ```bash
 pip install Scrapy
 pip install pandas
 pip install fake-useragent
+```
+# Запуск
+```bash
+cd crawl/spiders
+scrapy crawl ilacrehberi
 ```
 # p.s.
 Если не хотите устанавливать зависимости глобально, рекомендуется создать виртуальное окружение после копирования репозитория.
