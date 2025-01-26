@@ -8,7 +8,7 @@ Crawler для парсинга фармацевтического сайта il
 # Запуск
 ```bash
 git clone https://github.com/tetch201/crawler-Scrapy
-cd crawl/spiders
+cd crawler-Scrapy/crawl/spiders
 scrapy crawl ilacrehberi
 ```
 # Фреймворк и инструменты:
