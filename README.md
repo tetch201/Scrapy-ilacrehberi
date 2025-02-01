@@ -7,8 +7,8 @@ Crawler для парсинга фармацевтического сайта il
 4. Беспорядочная структура сайта идеально демонстрирует преимущество crawlSpider для парсинга данного ресурса. (Парсер сам проваливается во все найденные ссылки, и ведет запись только нужных данных, исходя из своих настроек)
 # Копия и вирт.окр.
 ```bash
-git clone https://github.com/tetch201/crawler-Scrapy
-cd crawler-Scrapy
+git clone https://github.com/tetch201/Scrapy-ilacrehberi
+cd Scrapy-ilacrehberi
 python -m venv venv
 venv/scripts/activate
 ```
